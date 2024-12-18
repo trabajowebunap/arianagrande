@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffe6f7, #e0c3fc);
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    background-image: url(fondo\ pastel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    color: #d63384;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+header p {
+    font-size: 1.2em;
+    color: black;
+    margin-top: 10px;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+}
+.container img {
+    width: 100%;
+    border-radius: 15px;
+}
+.container h2 {
+    margin: 20px 0;
+    font-size: 2em;
+    color: #d63384;
+}
+.container p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.highlights {
+    margin-top: 20px;
+    text-align: left;
+}
+.highlights ul {
+    list-style: none;
+    padding: 0;
+}
+.highlights ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+.highlights ul li::before {
+    content: "• ";
+    color: #d63384;
+    font-weight: bold;
+}
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+footer a {
+    text-decoration: none;
+    color: #d63384;
+}
